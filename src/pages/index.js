@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Header from "../components/Masthead";
 import Footer from "../components/Footer";
 import Donations from "../components/Donations";
 
@@ -16,6 +17,7 @@ import Donations from "../components/Donations";
 function Home() {
   return (
     <div>
+        <Header />
       <Navbar />
       <section>
         <div className="container">
